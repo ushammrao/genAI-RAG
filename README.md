@@ -14,6 +14,6 @@ Documents -> Split into Chunks -> Create Embedings -> Vector Store
 
 streamlit run app.py
 
-<img width="950" height="596" alt="NVDA-NIMGenAIRAG_UR25" src="https://github.com/user-attachments/assets/d81d5333-f827-4e71-bb95-f9bb6805d650" />
+<img width="955" height="596" alt="NVDA-NIMGenAIRAG_UR25" src="https://github.com/user-attachments/assets/0260b490-c32f-4a8c-8980-cea3dd6ea077" />
 
 <img width="1400" height="1265" alt="image" src="https://github.com/user-attachments/assets/735636e7-ee9b-4705-a9ca-cf36b8217bcc" />
