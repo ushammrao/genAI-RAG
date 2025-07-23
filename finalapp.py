@@ -1,16 +1,13 @@
 import streamlit as st
 import os
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings, ChatNVIDIA
-from langchain_community.document_loaders import WebBaseLoader
-from langchain.embeddings import OllamaEmbeddings
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import PyPDFDirectoryLoader
-import time
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -33,7 +30,7 @@ def vector_embedding():
 
 st.title("Nvidia NIM Demo")
 llm = ChatNVIDIA(model="meta/llama3-70b-instruct")
-
+# llm = chatNVIDIA(model='meta/llama-3.2-1b-instruct")
 
 prompt=ChatPromptTemplate.from_template(
 """
