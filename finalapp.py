@@ -30,7 +30,7 @@ def vector_embedding():
 
 st.title("Nvidia NIM Demo")
 llm = ChatNVIDIA(model="meta/llama3-70b-instruct")
-# llm = chatNVIDIA(model='meta/llama-3.2-1b-instruct")
+# llm = ChatNVIDIA(model='meta/llama-3.2-1b-instruct")
 
 prompt=ChatPromptTemplate.from_template(
 """
