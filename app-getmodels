@@ -14,7 +14,7 @@ models = client.models.list()
 for model in models.data:
     print(model.id)
 
-
+-----------------------------------------------------
 ##app output
 01-ai/yi-large
 abacusai/dracarys-llama-3.1-70b-instruct
@@ -69,7 +69,7 @@ meta/llama-3.1-405b-instruct
 meta/llama-3.1-70b-instruct
 meta/llama-3.1-8b-instruct
 meta/llama-3.2-11b-vision-instruct
-meta/llama-3.2-1b-instruct
+meta/llama-3.2-1b-instruct  #used
 meta/llama-3.2-3b-instruct
 meta/llama-3.2-90b-vision-instruct
 meta/llama-3.3-70b-instruct
@@ -78,7 +78,7 @@ meta/llama-4-scout-17b-16e-instruct
 meta/llama-guard-4-12b
 meta/llama2-70b
 meta/llama3-70b-instruct
-meta/llama3-8b-instruct
+meta/llama3-8b-instruct # used in the past
 microsoft/kosmos-2
 microsoft/phi-3-medium-128k-instruct
 microsoft/phi-3-medium-4k-instruct
